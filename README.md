@@ -6,7 +6,7 @@ Your knowledge of semantic HTML, CSS3, Vanilla Javascript, Git/Github, responsiv
 ## What's the challenge?
 - Code a template using the following as a reference: https://ptonella.github.io/frontend-dev-challenge/template/
 
-![gif](http://g.recordit.co/Bn2k4PEcmS.gif)
+![gif](http://g.recordit.co/YjKFLxNzUI.gif)
 
 ***
 
