@@ -45,4 +45,4 @@ Your knowledge of semantic HTML, CSS3, Vanilla Javascript, Git/Github, responsiv
 
 ## Copyright
 
-- This template was [downloaded](https://github.com/StartBootstrap/startbootstrap-sb-admin-2) for free and the code was changed and adapted to our needs.
+- This template was [downloaded](https://github.com/StartBootstrap/startbootstrap-sb-admin-2) for free and the code was adapted to our needs.
