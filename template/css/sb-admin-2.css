@@ -9771,10 +9771,6 @@ a:focus {
   outline: none;
 }
 
-#wrapper {
-  display: flex;
-}
-
 #wrapper #content-wrapper {
   background-color: #f8f9fc;
   width: 100%;
