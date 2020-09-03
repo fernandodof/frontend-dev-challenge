@@ -1,0 +1,41 @@
+@import "colors";
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+
+    >div {
+        flex: 0 100%;
+        padding: 0 10px;
+
+        @media (min-width: 1200px) {
+            flex-basis: 50%;
+        }
+
+        >div {
+            background-color: white;
+            min-height: 500px;
+            padding: 0 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+
+    }
+
+    .card {
+        border-radius: 5px;
+
+        &-header {
+            display: flex;
+            align-items: center;
+            height: 50px;
+            border-bottom: 1px solid $default-border;
+            font-weight: 600;
+            color: $main-blue;
+            font-size: 1.1rem;
+        }
+    }
+
+}

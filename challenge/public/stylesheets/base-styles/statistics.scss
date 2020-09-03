@@ -1,0 +1,77 @@
+@import "colors";
+
+$annual-color: #1cc88a;
+$completed-color: #36b9cc;
+$pending-color: #f6c23e;
+
+.statistics {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $main-background;
+    margin: 0 -10px;
+
+    >div {
+        flex: 0 100%;
+        padding: 0 10px;
+
+        @media (min-width: 768px) {
+            flex-basis: 50%;
+        }
+
+        @media (min-width: 1200px) {
+            flex-basis: 25%;
+        }
+
+        >div {
+            margin-bottom: 20px;
+            padding: 0 10px;
+            background-color: white;
+            border-radius: 5px;
+        }
+    }
+
+    &-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid $default-border;
+        border-left-width: 0.25em;
+        border-left-style: solid;
+        text-transform: uppercase;
+        font-weight: 600;
+        height: 100px;
+    }
+
+    &-monthly {
+        border-left-color: $main-blue;
+
+        &-label {
+            color: $main-blue;
+        }
+    }
+
+    &-annual {
+        border-left-color: $annual-color;
+
+        &-label {
+            color: $annual-color;
+        }
+    }
+
+    &-completed {
+        border-left-color: $completed-color;
+
+        &-label {
+            color: $completed-color
+        }
+    }
+
+    &-pending {
+        border-left-color: $pending-color;
+
+        &-label {
+            color: $pending-color;
+        }
+    }
+
+}

@@ -1,0 +1,27 @@
+@import "colors";
+
+.datatable {
+    margin-top: 25px;
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 5px;
+
+    span {
+        color: $main-blue;
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    thead,
+    tfoot {
+        th {
+            text-align: left;
+        }
+    }
+
+    td {
+        border: 1px solid $default-border;
+    }
+}
