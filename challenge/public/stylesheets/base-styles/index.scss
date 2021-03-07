@@ -1,0 +1,21 @@
+@import "colors";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Nunito";
+    background-color: $main-background;
+}
+
+.container {
+    margin: 15px
+}

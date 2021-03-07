@@ -1,0 +1,36 @@
+@import "colors";
+
+.database-images {
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+
+        >div {
+            flex: 0 50%;
+        }
+
+        figure {
+            padding: 10px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        caption {
+            width: 100%;
+            text-align: left;
+            display: block;
+        }
+    }
+
+    button {
+        margin-left: 10px;
+        margin-top: 10px;
+        color: white;
+        background-color: $main-blue;
+        border-radius: 5px;
+        padding: 10px 15px;
+        border: none;
+    }
+}

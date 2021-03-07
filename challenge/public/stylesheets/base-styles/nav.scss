@@ -1,0 +1,52 @@
+@import "colors";
+
+.nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 10px;
+
+    &-logo {
+        font-size: 1.7em;
+        font-weight: 700;
+
+        * {
+            color: $main-blue;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        i {
+            margin-right: 10px;
+        }
+    }
+
+    &-user {
+        span {
+            margin-right: 10px;
+        }
+    }
+
+    &-controls {
+        display: flex;
+        align-items: center;
+
+        >div {
+            padding: 0 20px;
+
+            // border-right: 1px solid $nav-divider;
+
+            &:not(:last-child) {
+                border-right: 1px solid $nav-divider;
+            }
+        }
+    }
+}

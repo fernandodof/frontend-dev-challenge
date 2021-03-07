@@ -1,0 +1,110 @@
+@import "colors";
+
+.notes {
+    .note {
+        border-bottom: 1px solid $default-border;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+
+        &-header {
+            font-size: 0.7em;
+            margin-bottom: 8px;
+        }
+
+        &-list {
+            margin-top: 10px;
+        }
+
+        &-type {
+            margin-right: 5px;
+            padding: 4px;
+            color: white;
+            border-radius: 5px;
+        }
+
+        &-public {
+            background-color: $main-blue;
+        }
+
+        &-private {
+            background-color: #F5A643;
+        }
+
+        &-date {
+            color: #666666;
+        }
+
+        &-username {
+            background-color: #CBE6EE;
+            border-radius: 10px;
+            margin-right: 5px;
+            color: #004182;
+            padding: 2px 5px;
+            font-weight: 600;
+        }
+
+        &-message {
+            color: #004182;
+        }
+
+        &-tabs {
+            button {
+                color: rgb(140, 140, 177);
+                background-color: white;
+                font-size: 0.8em;
+                padding: 5px;
+                font-weight: 600;
+                border: 1px solid $default-border;
+                outline: none;
+                margin: 0;
+
+                &.selected {
+                    color: white;
+                    background-color: $main-blue
+                }
+            }
+
+            span {
+                color: #666666;
+                font-size: 0.7em;
+            }
+        }
+
+        &-count {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+            font-size: 0.8em;
+            color: #666666;
+        }
+    }
+
+    form {
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 5px;
+        }
+
+        button {
+            color: white;
+            background-color: $main-blue;
+            border-radius: 15px;
+            padding: 10px 15px;
+            border: none;
+            font-weight: 600;
+        }
+
+        button:disabled,
+        button[disabled] {
+            background-color: grey;
+        }
+
+    }
+
+
+    #private-notes {
+        display: none;
+    }
+
+}
